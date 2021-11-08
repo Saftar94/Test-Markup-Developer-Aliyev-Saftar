@@ -1,0 +1,44 @@
+{
+  "name": "test-markup-developer-aliyev-saftar",
+  "version": "1.0.0",
+  "description": "Test Markup Developer  Aliyev Saftar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=production",
+    "start": "webpack server --mode development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saftar94/Test-Markup-Developer-Aliyev-Saftar.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saftar94/Test-Markup-Developer-Aliyev-Saftar/issues"
+  },
+  "homepage": "https://github.com/Saftar94/Test-Markup-Developer-Aliyev-Saftar#readme",
+  "devDependencies": {
+    "webpack": "^5.61.0",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "@babel/core": "^7.16.0",
+    "api-core": "^3.0.0",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.1",
+    "gh-pages": "^3.2.3",
+    "handlebars": "^4.7.7",
+    "handlebars-loader": "^1.7.1",
+    "html-loader": "^3.0.1",
+    "html-webpack-plugin": "^5.5.0",
+    "lodash": "^4.17.21",
+    "sass": "^1.43.4",
+    "sass-loader": "^12.3.0",
+    "style-loader": "^3.3.1",
+    "typescript": "^4.4.4",
+    "webpack-dev-server": "^4.4.0",
+    "webpack-plugin-serve": "^1.5.0"
+  }
+}

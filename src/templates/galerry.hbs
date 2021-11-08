@@ -1,0 +1,62 @@
+{{#each this}}
+  <li class='foto-list'>
+    <img
+      class='photo-card__img'
+      src="{{webformatURL}}"
+      alt="{{tags}}"
+      loading='lazy'
+      data-large-img="{{largeImageURL}}"
+      width='86'
+      height='86'
+    />
+
+    <div class='photo-card' id="{{id}}">
+      <ul class='stats-list'>
+        <li class='stats'>
+          <span class='text-span'>
+            Today
+          </span>
+          <p class='stats-item'>
+            <i class='material-icons'>
+              thumb_up
+            </i>
+            {{likes}}
+          </p>
+          <p class='stats-item'>
+            <i class='material-icons'>
+              comment
+            </i>
+            {{comments}}
+          </p>
+        </li>
+
+        <li class='stats'>
+          <span class='text-span'>
+            Tomorow
+          </span>
+          <p class='stats-item'>
+            <i class='material-icons'>
+              thumb_up
+            </i>
+            {{likes}}
+          </p>
+          <p class='stats-item'>
+            <i class='material-icons'>
+              comment
+            </i>
+            {{comments}}
+          </p>
+        </li>
+
+        <li class='stats'>
+          <span class='text-span'>
+            Image upload
+          </span>
+          <p class='stats-item'>
+            <input type='date' />
+          </p>
+        </li>
+      </ul>
+    </div>
+  </li>
+{{/each}}

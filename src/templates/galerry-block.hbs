@@ -1,0 +1,61 @@
+{{#each this}}
+  <li class='list-block'>
+    <img
+      class='photo-block__img'
+      src="{{webformatURL}}"
+      alt="{{tags}}"
+      loading=''
+      data-large-img="{{largeImageURL}}"
+      width='203'
+      height='203'
+    />
+
+    <div class='' id="{{id}}">
+      <ul class='stats-block'>
+        <li class=''>
+          <span class=''>
+            Today
+          </span>
+          <p class='block-item'>
+            <i class='material-icons'>
+              thumb_up
+            </i>
+            {{likes}}
+          </p>
+          <p class=''>
+            <i class='material-icons'>
+              comment
+            </i>
+            {{comments}}
+          </p>
+        </li>
+
+        <li class=''>
+          <span class=''>
+            Tomorow
+          </span>
+          <p class=''>
+            <i class='material-icons'>
+              thumb_up
+            </i>
+            {{likes}}
+          </p>
+          <p class=''>
+            <i class='material-icons'>
+              comment
+            </i>
+            {{comments}}
+          </p>
+        </li>
+      </ul>
+      <a class='upload'>
+        <span class=''>
+          Image upload
+        </span>
+        <p class=''>
+          28-9-2012
+        </p>
+      </a>
+    </div>
+  </li>
+{{/each}}

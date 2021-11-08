@@ -1,0 +1,163 @@
+.div {
+  display: block;
+  position: relative;
+  top: -2px;
+  height: 369px;
+  background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 1230 369" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="rgba(47, 73, 94, 1)" d="M 0 369 C 474 369 474 369 948 369 L 948 369 L 948 0 L 0 0 Z" stroke-width="0"></path> <path fill="rgba(47, 73, 94, 1)" d="M 947 369 C 1047 369 1047 2 1147 2 L 1147 2 L 1147 0 L 947 0 Z" stroke-width="0"></path> <path fill="rgba(47, 73, 94, 1)" d="M 1146 2 C 1188 2 1188 0 1230 0 L 1230 0 L 1230 0 L 1146 0 Z" stroke-width="0"></path></svg>');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 1239px) {
+  .div {
+    background-size: contain;
+  }
+}
+
+// .header__polygon {
+//   display: flex;
+// }
+
+.header {
+  display: flex;
+  position: absolute;
+  // width: 1488px;
+  height: 172px;
+  background: rgba(255, 255, 255, 0.67);
+  box-shadow: 0px 4px 24px rgb(0 0 0 / 12%),
+    inset 0px 12px 24px rgb(0 0 0 / 12%);
+}
+
+.header__link {
+  display: flex;
+  align-items: baseline;
+  padding-left: 379px;
+  padding-top: 6px;
+}
+.header__main {
+  display: flex;
+  align-items: baseline;
+  margin-top: 35px;
+}
+
+.header__title {
+  width: 195px;
+  height: 29px;
+  display: flex;
+  align-items: baseline;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  margin-left: 86px;
+  padding-top: 6px;
+}
+.header__body {
+  margin-left: 86px;
+}
+
+.start {
+  width: 111px;
+  height: 15px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: -0.03em;
+  padding: 6px 12px;
+  color: #3d8eda;
+  border: 1px solid #3d8eda;
+  border-radius: 2px;
+}
+
+.header__list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+  list-style: none;
+}
+
+.header__list-main {
+  display: flex;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.list-text {
+  margin-left: 4px;
+  display: flex;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.header__date {
+  margin-left: 86px;
+  margin-top: 19px;
+}
+
+// ::-webkit-datetime-edit {
+//   //   padding: 1em;
+// }
+// ::-webkit-datetime-edit-fields-wrapper {
+//   //   background: silver;
+// }
+// ::-webkit-datetime-edit-text {
+//   //   color: red;
+//   //   padding: 0 0.3em;
+// }
+::-webkit-datetime-edit-month-field {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+
+  color: #636264;
+}
+::-webkit-datetime-edit-day-field {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+
+  color: #636264;
+}
+::-webkit-datetime-edit-year-field {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+
+  color: #636264;
+}
+
+::-webkit-calendar-picker-indicator {
+  background-image: url('../image/bx_bx-calendar.svg');
+}
+
+.header__date-title {
+  background-image: url('../image/bx_bx-plus.svg');
+  background-repeat: no-repeat;
+  background-position-x: 93px;
+  background-position-y: -1px;
+  border: 1px solid #dedede;
+  border-radius: 4px;
+}
+
+.header__date-title:not(:last-child) {
+  margin-left: 11px;
+}
+
+.header__date-title:not(:first-child) {
+  margin-left: 22px;
+}

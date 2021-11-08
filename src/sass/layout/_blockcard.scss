@@ -1,0 +1,88 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 300px;
+  list-style: none;
+}
+
+.main-title {
+  margin-top: -170px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.foto-list {
+  margin-bottom: 9px;
+  display: flex;
+  // justify-content: space-between;
+  width: 836px;
+  height: 86px;
+  background: #ffffff;
+}
+
+.stats {
+  display: flex;
+}
+.stats-list {
+  display: flex;
+  justify-content: space-between;
+  width: 650px;
+}
+.stats-item {
+  align-items: center;
+  display: flex;
+}
+.stats-item:not(:last-child) {
+  margin-right: 19px;
+}
+// .stats:not(:first-child) {
+//   margin-left: 140px;
+// }
+
+.photo-card {
+  display: flex;
+}
+
+.text-span {
+  position: absolute;
+}
+
+.photo-card__img {
+  margin-right: 30px;
+}
+.material-icons {
+  margin-right: 7px;
+}
+
+.scroll-to-top {
+  text-align: center;
+  margin-left: 668px;
+  margin-right: 668px;
+  padding: 8px 26px;
+  border: 1px solid #929292;
+  border-radius: 14px;
+  color: #929292;
+}
+
+.svg-left {
+  display: flex;
+  align-self: end;
+}
+.svg-menu {
+  margin-top: 187px;
+  margin-left: 400px;
+  display: flex;
+}
+
+.capa-svg {
+  fill: #c8c7c7;
+  margin-right: 15px;
+}
+.capat-svg {
+  fill: #c8c7c7;
+}
+.capa-svg-current {
+  position: relative;
+  fill: #3d8eda;
+}

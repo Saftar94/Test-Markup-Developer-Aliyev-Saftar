@@ -1,0 +1,40 @@
+@import './base/base';
+@import './base/container';
+
+@import './layout/header';
+@import './layout/blockcard';
+
+.list-block {
+  margin-bottom: 16px;
+  background-color: #ffffff;
+  padding-bottom: 18px;
+  margin-right: 8px;
+}
+.list-block:nth-child(4n) {
+  margin-right: 0px;
+}
+
+.stats-block {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 25px;
+}
+.stats-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.upload {
+  display: flex;
+  justify-content: space-around;
+}
+
+.photo-block__img {
+  margin-bottom: 8px;
+  background-color: #ffffff;
+}
+
+.block-item {
+  display: flex;
+  align-items: center;
+}
